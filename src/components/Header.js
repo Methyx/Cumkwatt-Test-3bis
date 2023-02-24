@@ -1,8 +1,6 @@
 // style
 import "../style/header.css";
 
-import googleLogo from "../img/google.png";
-
 const Header = () => {
   return (
     <header>
