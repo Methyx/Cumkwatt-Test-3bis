@@ -1,0 +1,63 @@
+.details {
+  width: 50%;
+  border: 2px solid darkslategray;
+  box-shadow: 2px 2px 5px gray;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.details h2 {
+  color: darkblue;
+  font-size: 20px;
+}
+
+.details .item {
+  padding: 3px;
+}
+.details .item p:nth-child(1) {
+  font-size: 12px;
+  color: gray;
+}
+.details .item p:nth-child(2) {
+  margin-left: 10px;
+}
+
+.details .address {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.details .address .item:nth-child(1) {
+  width: 20%;
+}
+.details .address .item:nth-child(2) {
+  width: 80%;
+}
+
+.details .city {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.details .city .item:nth-child(1) {
+  width: 30%;
+}
+.details .city .item:nth-child(2) {
+  width: 70%;
+}
+
+.details .gps {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+}
+.details .gps .item:nth-child(n) {
+  width: 50%;
+}
+@media screen and (max-width: 950px) {
+  .details {
+    width: 90%;
+  }
+}

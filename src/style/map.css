@@ -1,0 +1,14 @@
+.map {
+  width: 50%;
+  border: 1px solid black;
+  box-shadow: 2px 2px 5px grey;
+}
+.map-container {
+  min-height: 300px;
+  width: 100%;
+}
+@media screen and (max-width: 950px) {
+  .map {
+    width: 90%;
+  }
+}

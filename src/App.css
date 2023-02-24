@@ -1,0 +1,22 @@
+.App {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.results {
+  margin-top: 20px;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 950px) {
+  .results {
+    flex-direction: column;
+  }
+}
